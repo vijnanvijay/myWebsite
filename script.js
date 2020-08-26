@@ -58,3 +58,8 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 // **********************************************************************************
+
+// navigate button auto close
+$('.nav-link').on('click',function() {
+  $('.navbar-collapse').collapse('hide');
+});
